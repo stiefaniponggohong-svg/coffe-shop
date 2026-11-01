@@ -1,15 +1,81 @@
 <!DOCTYPE html>
-<html lang="id">
+<html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>About | Kopi Senja</title>
-  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=Fraunces:wght@700&display=swap" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Us - amerta coffe</title>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Fraunces:wght@600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
+  <style>
+    .about-container {
+      max-width: 1000px;
+      margin: 40px auto;
+      padding: 20px;
+    }
+
+    .about-intro {
+      background-color: #e8ddc8;
+      padding: 40px;
+      border-radius: 12px;
+      margin-bottom: 25px;
+    }
+
+    .about-subtitle {
+      color: #765438;
+      font-size: 13px;
+      font-weight: 700;
+      letter-spacing: 2px;
+    }
+
+    .about-intro h1 {
+      color: #3b2314;
+      font-family: 'Fraunces', serif;
+      font-size: 36px;
+      margin-bottom: 15px;
+    }
+
+    .about-intro p.description {
+      color: #5c5148;
+      line-height: 1.8;
+      text-align: justify;
+    }
+
+    .about-details {
+      display: flex;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+
+    .about-card {
+      background-color: #ffffff;
+      border: 1px solid #eaeaea;
+      border-radius: 12px;
+      padding: 25px;
+      flex: 1;
+      min-width: 250px;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+    }
+
+    .about-card h2 {
+      color: #3b2314;
+      font-family: 'Fraunces', serif;
+      margin-top: 0;
+    }
+
+    .about-card ul {
+      padding-left: 20px;
+    }
+
+    .about-card li {
+      margin-bottom: 12px;
+      line-height: 1.7;
+      color: #5c5148;
+    }
+  </style>
 </head>
 <body>
-  <nav>
-    <a class="logo" href="index.html">Kopi Senja</a>
+    <nav>
+    <a class="logo" href="index.html">amerta coffe</a>
     <ul>
       <li><a href="index.html">Home</a></li>
       <li><a href="menu.html">Menu</a></li>
@@ -18,37 +84,48 @@
       <li><a href="contact.html">Contact</a></li>
     </ul>
   </nav>
-
-  <main>
-    <h2>Tentang Kopi Senja</h2>
-    <p style="max-width:620px;line-height:1.9;letter-spacing:.2px;text-align:justify">
-      Kopi Senja dimulai dari gerobak kecil di depan rumah pada 2019. Kami percaya kopi enak tidak perlu rumit: biji yang segar, seduhan yang tepat, dan tempat yang nyaman untuk duduk lama.
-    </p>
-
-    <div class="cols" style="margin-top:30px">
-      <div class="box">
-        <h3>Perjalanan kami</h3>
-        <ol class="plain">
-          <li>2019: Gerobak pertama dibuka</li>
-          <li>2021: Pindah ke kedai sendiri</li>
-          <li>2024: Mulai sangrai biji sendiri</li>
-          <li>2026: Membuka area baca dan kerja</li>
-        </ol>
-      </div>
-      <div class="box">
-        <h3>Nilai kami</h3>
-        <ul class="plain">
-          <li>Beli biji langsung dari petani</li>
-          <li>Kurangi sampah plastik</li>
-          <li>Semua orang boleh duduk lama</li>
+  <main class="about-container">
+    <section class="about-intro">
+      <p class="about-subtitle">A LITTLE STORY ABOUT US</p>
+      <h1>More Than Just a Cup of Coffee</h1>
+      <p class="description">
+        amerta coffe is a new coffee shop created for people
+        who love good coffee and a cozy atmosphere.
+        We want to make a comfortable place where everyone
+        can relax, meet friends, study, or simply enjoy
+        their favorite cup of coffee.
+      </p>
+    </section>
+    <section class="about-details">
+        <div class="about-card">
+        <h2>Our Beginning</h2>
+         <ul>
+          <li>Starting with a simple love for coffee.</li>
+          <li>Creating a cozy space for everyone.</li>
+          <li>Serving coffee with care and quality.</li>
+          <li>Growing together with our customers.</li>
         </ul>
       </div>
-    </div>
-  </main>
-
+      <div class="about-card">
+        <h2>What We Believe</h2>
+        <ul>
+          <li>Using quality coffee beans.</li>
+          <li>Supporting local coffee farmers.</li>
+          <li>Reducing plastic waste.</li>
+          <li>Creating a comfortable place for everyone.</li>
+        </ul>
+      </div>
+    </section>
+</main>
   <footer>
-    <p>&copy; 2026 Kopi Senja. Jl. Contoh No. 12, Bekasi. Buka setiap hari 07.00-22.00.</p>
-    <p><a href="menu.html">Menu</a> | <a href="about.html">About</a> | <a href="gallery.html">Gallery</a> | <a href="contact.html">Contact</a></p>
+    <p>&copy; 2026 amerta coffe. All Rights Reserved.</p>
+    <p>
+      <a href="index.html">Home</a> |
+      <a href="menu.html">Menu</a> |
+      <a href="about.html">About</a> |
+      <a href="gallery.html">Gallery</a> |
+      <a href="contact.html">Contact</a>
+    </p>
   </footer>
 </body>
 </html>
